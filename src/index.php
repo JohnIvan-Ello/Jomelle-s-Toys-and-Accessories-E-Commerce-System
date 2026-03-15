@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jomelle's Toy and Accessories</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- gLightbox gallery-->
+    <link rel="stylesheet" href="vendor/glightbox/css/glightbox.min.css">
+    <!-- Range slider-->
+    <link rel="stylesheet" href="vendor/nouislider/nouislider.min.css">
+    <!-- Choices CSS-->
+    <link rel="stylesheet" href="vendor/choices.js/public/assets/styles/choices.min.css">
+    <!-- Swiper slider-->
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css">
+    <!-- Google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400;800&amp;display=swap">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+
+  </head>
+  <body>
+    <div class="page-holder">
+    <?php include 'header.php'; ?>
+      <!--  Modal -->
+      <div class="modal fade" id="productView" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content overflow-hidden border-0">
+            <button class="btn-close p-4 position-absolute top-0 end-0 z-index-20 shadow-0" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body p-0">
+              <div class="row align-items-stretch">
+                <div class="col-lg-6 p-lg-0"><a class="glightbox product-view d-block h-100 bg-cover bg-center" style="background: url(img/product-5.jpg)" href="img/product-5.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a><a class="glightbox d-none" href="img/product-5-alt-1.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a><a class="glightbox d-none" href="img/product-5-alt-2.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a></div>
+                <div class="col-lg-6">
+                  <div class="p-4 my-md-4">
+                    <ul class="list-inline mb-2">
+                      <li class="list-inline-item m-0"><i class="fas fa-star small text-warning"></i></li>
+                      <li class="list-inline-item m-0 1"><i class="fas fa-star small text-warning"></i></li>
+                      <li class="list-inline-item m-0 2"><i class="fas fa-star small text-warning"></i></li>
+                      <li class="list-inline-item m-0 3"><i class="fas fa-star small text-warning"></i></li>
+                      <li class="list-inline-item m-0 4"><i class="fas fa-star small text-warning"></i></li>
+                    </ul>
+                    <h2 class="h4">Red digital smartwatch</h2>
+                    <p class="text-muted">$250</p>
+                    <p class="text-sm mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.</p>
+                    <div class="row align-items-stretch mb-4 gx-0">
+                      <div class="col-sm-7">
+                        <div class="border d-flex align-items-center justify-content-between py-1 px-3"><span class="small text-uppercase text-gray mr-4 no-select">Quantity</span>
+                          <div class="quantity">
+                            <button class="dec-btn p-0"><i class="fas fa-caret-left"></i></button>
+                            <input class="form-control border-0 shadow-0 p-0" type="text" value="1">
+                            <button class="inc-btn p-0"><i class="fas fa-caret-right"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-5"><a class="btn btn-dark btn-sm w-100 h-100 d-flex align-items-center justify-content-center px-0" href="cart.php">Add to cart</a></div>
+                    </div><a class="btn btn-link text-dark text-decoration-none p-0" href="#!"><i class="far fa-heart me-2"></i>Add to wish list</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- HERO SECTION-->
+      <section class="hero pb-3 bg-center d-flex align-items-; position-relative" style="background: url(img/logo.jpg);">
+        <div class="container py-5">
+            <div class="row px-4 px-lg-5">
+                <div class="col-lg-12 d-flex align-items-end justify-content-center position-absolute bottom-0 start-50 translate-middle-x">
+                    <a class="btn btn-dark mb-4" href="shop.php" style="background-color: orange; border-color: orange;">BROWSE MORE</a>
+                </div>
+            </div>
+    </section>
+        <!-- CATEGORIES SECTION-->
+        <div class="container">
+        <section class="pt-5">
+          <header class="text-center">
+            <p class="small text-muted small text-uppercase mb-1">Carefully created collections</p>
+            <h2 class="h5 text-uppercase mb-4">Browse our categories</h2>
+          </header>
+          <div class="row">
+            <div class="col-md-4"><a class="category-item" href="toys.php"><img class="img-fluid" src="img/lego-1.jpg" alt=""/><strong class="category-item-title" class="bottom-align">Toys</strong></a>
+            </div>
+            <div class="col-md-4"><a class="category-item mb-4" href="photocards.php"><img class="img-fluid" src="img/black-4.jpg" alt=""/><strong class="category-item-title" class="bottom-align">Photocards</strong></a><a class="category-item" href="accessories.php"><img class="img-fluid" src="img/cute-1.jpg" alt=""/><strong class="category-item-title">Accessories</strong></a>
+            </div>
+            <div class="col-md-4"><a class="category-item" href="boardgames.php"><img class="img-fluid" src="img/snake-5.jpg" alt=""/><strong class="category-item-title" class="bottom-align">Board Games</strong></a>
+            </div>
+          </div>
+        </section>
+        <!-- TRENDING PRODUCTS-->
+        <section class="py-5">
+          <header>
+            <p class="small text-muted small text-uppercase mb-1">Made the hard way</p>
+            <h2 class="h5 text-uppercase mb-4">Top trending products</h2>
+          </header>
+          <div class="row">
+            <!-- PRODUCT-->
+            <div class="col-xl-3 col-lg-4 col-sm-6">
+              <div class="product text-center">
+                <div class="position-relative mb-3">
+                  <div class="badge text-white bg-"></div><a class="d-block" href="peppadetail.php"><img class="img-fluid w-100" src="img/pg-3.jpg" alt="..."></a>
+                  <div class="product-overlay">
+                    <ul class="mb-0 list-inline">
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#!"><i class="far fa-heart"></i></a></li>
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.php">Add to cart</a></li>
+                      <li class="list-inline-item me-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-bs-toggle="modal"><i class="fas fa-expand"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <h6> <a class="reset-anchor" href="peppadetail.php">Peppa Pig</a></h6>
+                <p class="small text-muted">25</p>
+              </div>
+            </div>
+            <!-- PRODUCT-->
+            <div class="col-xl-3 col-lg-4 col-sm-6">
+              <div class="product text-center">
+                <div class="position-relative mb-3">
+                  <div class="badge text-white bg-primary">Sale</div><a class="d-block" href="minidetail.php"><img class="img-fluid w-100" src="img/b-4.jpg" alt="..."></a>
+                  <div class="product-overlay">
+                    <ul class="mb-0 list-inline">
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#!"><i class="far fa-heart"></i></a></li>
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.php">Add to cart</a></li>
+                      <li class="list-inline-item me-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-bs-toggle="modal"><i class="fas fa-expand"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <h6> <a class="reset-anchor" href="minidetail.php">Mini Billiard</a></h6>
+                <p class="small text-muted">₱25</p>
+              </div>
+            </div>
+            <!-- PRODUCT-->
+            <div class="col-xl-3 col-lg-4 col-sm-6">
+              <div class="product text-center">
+                <div class="position-relative mb-3">
+                  <div class="badge text-white bg-"></div><a class="d-block" href="ponytaildetail.php"><img class="img-fluid w-100" src="img/p-1.jpg" alt="..."></a>
+                  <div class="product-overlay">
+                    <ul class="mb-0 list-inline">
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#!"><i class="far fa-heart"></i></a></li>
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.php">Add to cart</a></li>
+                      <li class="list-inline-item me-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-bs-toggle="modal"><i class="fas fa-expand"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <h6> <a class="reset-anchor" href="ponytaildetail.php">Assorted Ponytail</a></h6>
+                <p class="small text-muted">₱10</p>
+              </div>
+            </div>
+            <!-- PRODUCT-->
+            <div class="col-xl-3 col-lg-4 col-sm-6">
+              <div class="product text-center">
+                <div class="position-relative mb-3">
+                  <div class="badge text-white bg-info">New</div><a class="d-block" href="kidstampdetail.php"><img class="img-fluid w-100" src="img/sk-1.jpg" alt="..."></a>
+                  <div class="product-overlay">
+                    <ul class="mb-0 list-inline">
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#!"><i class="far fa-heart"></i></a></li>
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.php">Add to cart</a></li>
+                      <li class="list-inline-item me-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-bs-toggle="modal"><i class="fas fa-expand"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <h6> <a class="reset-anchor" href="kidstampdetail.php">Kid Stamp</a></h6>
+                <p class="small text-muted">₱10</p>
+              </div>
+            </div>
+            <!-- PRODUCT-->
+            <div class="col-xl-3 col-lg-4 col-sm-6">
+              <div class="product text-center">
+                <div class="position-relative mb-3">
+                  <div class="badge text-white bg-danger">Sold</div><a class="d-block" href="legodetail.php"><img class="img-fluid w-100" src="img/dl-1.jpg" alt="..."></a>
+                  <div class="product-overlay">
+                    <ul class="mb-0 list-inline">
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#!"><i class="far fa-heart"></i></a></li>
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.php">Add to cart</a></li>
+                      <li class="list-inline-item me-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-bs-toggle="modal"><i class="fas fa-expand"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <h6> <a class="reset-anchor" href="legodetail.php">DIY Lego </a></h6>
+                <p class="small text-muted">₱10</p>
+              </div>
+            </div>
+            <!-- PRODUCT-->
+            <div class="col-xl-3 col-lg-4 col-sm-6">
+              <div class="product text-center">
+                <div class="position-relative mb-3">
+                  <div class="badge text-white bg-"></div><a class="d-block" href="diycarddetail.php"><img class="img-fluid w-100" src="img/card-1.jpg" alt="..."></a>
+                  <div class="product-overlay">
+                    <ul class="mb-0 list-inline">
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#!"><i class="far fa-heart"></i></a></li>
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.php">Add to cart</a></li>
+                      <li class="list-inline-item me-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-bs-toggle="modal"><i class="fas fa-expand"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <h6> <a class="reset-anchor" href="diycarddetail.php">DIY Card</a></h6>
+                <p class="small text-muted">₱10</p>
+              </div>
+            </div>
+            <!-- PRODUCT-->
+            <div class="col-xl-3 col-lg-4 col-sm-6">
+              <div class="product text-center">
+                <div class="position-relative mb-3">
+                  <div class="badge text-white bg-"></div><a class="d-block" href="atodetail.php"><img class="img-fluid w-100" src="img/ll-1.jpg" alt="..."></a>
+                  <div class="product-overlay">
+                    <ul class="mb-0 list-inline">
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#!"><i class="far fa-heart"></i></a></li>
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.php">Add to cart</a></li>
+                      <li class="list-inline-item me-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-bs-toggle="modal"><i class="fas fa-expand"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <h6> <a class="reset-anchor" href="atodetail.php">Lato-Lato</a></h6>
+                <p class="small text-muted">₱25</p>
+              </div>
+            </div>
+            <!-- PRODUCT-->
+            <div class="col-xl-3 col-lg-4 col-sm-6">
+              <div class="product text-center">
+                <div class="position-relative mb-3">
+                  <div class="badge text-white bg-"></div><a class="d-block" href="rubricsdetail.php"><img class="img-fluid w-100" src="img/rr-4.jpg" alt="..."></a>
+                  <div class="product-overlay">
+                    <ul class="mb-0 list-inline">
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#!"><i class="far fa-heart"></i></a></li>
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.php">Add to cart</a></li>
+                      <li class="list-inline-item me-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-bs-toggle="modal"><i class="fas fa-expand"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <h6> <a class="reset-anchor" href="rubricsdetail.php">Rubics Cube</a></h6>
+                <p class="small text-muted">₱25</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- SERVICES-->
+
+
+      </div>
+      <footer class="bg-dark text-white" style="background-color: #FFC000;">
+        <div class="container py-4">
+            <div class="row justify-content-center">
+                <div class="col-md-3 mb-3 mb-md-0 text-center"> 
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <h3><a class="footer-link" href="companydetails.php" onclick="toggleInfo('aboutUs')">About Us</a></h3>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3 mb-md-0 text-center"> 
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <h3><a class="footer-link" href="companydetails.php" onclick="toggleInfo('contactUs')">Contact Us</a></h3>
+                            <div id="contactUs" class="info" style="display: none;">
+                                <form id="contactForm">
+                                    <div class="form-group">
+                                        <label for="name">Your Name:</label>
+                                        <input type="text" id="name" name="name" class="form-control">
+                                    </div>
+                                    <!-- Other form fields -->
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3 mb-md-0 text-center"> 
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <h3><a class="footer-link" href="https://www.facebook.com/JomelleToys">Facebook</a></h3>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-5 mb-md-0 text-center"> <!-- Adjusted the class -->
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <h3><a class="footer-link" href="#!" onclick="toggleInfo('terms')">Terms and Conditions</a></h3>
+                            <div id="terms" class="info" style="display: none;">Read our terms and conditions.</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- HR with black color -->
+        <hr style="border-color: black;">
+        <div class="container text-center py-2">
+            <p style="color: black;"><b><i>Jomelle's Toys and Accessories</i></b> &copy;</p>
+        </div>
+    </footer>
+      <!-- JavaScript files-->
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="vendor/glightbox/js/glightbox.min.js"></script>
+      <script src="vendor/nouislider/nouislider.min.js"></script>
+      <script src="vendor/swiper/swiper-bundle.min.js"></script>
+      <script src="vendor/choices.js/public/assets/scripts/choices.min.js"></script>
+      <script src="js/front.js"></script>
+      <script>
+        // ------------------------------------------------------- //
+        //   Inject SVG Sprite - 
+        //   see more here 
+        //   https://css-tricks.com/ajaxing-svg-sprite/
+        // ------------------------------------------------------ //
+        function injectSvgSprite(path) {
+        
+            var ajax = new XMLHttpRequest();
+            ajax.open("GET", path, true);
+            ajax.send();
+            ajax.onload = function(e) {
+            var div = document.createElement("div");
+            div.className = 'd-none';
+            div.innerHTML = ajax.responseText;
+            document.body.insertBefore(div, document.body.childNodes[0]);
+            }
+        }
+        // this is set to BootstrapTemple website as you cannot 
+        // inject local SVG sprite (using only 'icons/orion-svg-sprite.svg' path)
+        // while using file:// protocol
+        // pls don't forget to change to your domain :)
+        injectSvgSprite('https://bootstraptemple.com/files/icons/orion-svg-sprite.svg'); 
+        
+      </script>
+      <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    </div>
+  </body>
+</html>
