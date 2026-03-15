@@ -8,45 +8,73 @@ This document provides a detailed look at the core functionalities of the Jomell
 ### 🔐 1. Authentication & Security
 The system implements a robust multi-portal authentication system to separate standard users from administrative staff.
 
-* **Admin Portal (`admin-login.png`):** Secure access for store managers to handle inventory and order fulfillment.
-* **Customer Access (`customer-login.png`):** Entry point for registered users to access personalized features.
-* **Account Creation (`registration.png`):** Input-validated form for new user onboarding.
-* **Credential Recovery (`forgot-password.png`):** Automated workflow to ensure users can safely regain account access.
+* **Admin Portal:** Secure access for store managers to handle inventory and order fulfillment.
+![Admin Login](admin-login.png)
+
+* **Customer Access:** Entry point for registered users to access personalized features.
+![Customer Login](customer-login.png)
+
+* **Account Creation:** Input-validated form for new user onboarding.
+![Registration](registration.png)
+
+* **Credential Recovery:** Automated workflow to ensure users can safely regain account access.
+![Forgot Password](forgot-password.png)
 
 ---
 
 ### 🏠 2. The User Interface (UX/UI)
 Designed with high-discoverability in mind, the interface prioritizes product visuals and ease of navigation.
 
-* **Main Landing (`homepage1.png`, `homepage2.png`):** Feature-rich landing pages showing seasonal promotions and top categories.
-* **Thematic Assets (`jomellebg.png`):** Custom-branded visual elements that maintain consistent site identity.
-* **Corporate Transparency (`company-details.png`):** Static page providing brand history and contact information.
+* **Main Landing:** Feature-rich landing pages showing seasonal promotions and top categories.
+![Homepage 1](homepage1.png)
+![Homepage 2](homepage2.png)
+
+* **Thematic Assets:** Custom-branded visual elements that maintain consistent site identity.
+![Jomelle Background](jomellebg.png)
+
+* **Corporate Transparency:** Static page providing brand history and contact information.
+![Company Details](company-details.png)
 
 ---
 
 ### 👤 3. Account & Profile Management
 Users can maintain their data to ensure seamless shipping and communication.
 
-* **Account Hub (`my-account.png`):** A centralized dashboard for users to manage their presence on the platform.
-* **Data Persistence (`edit-profile.png`):** Interface for updating personal information, synchronized with the backend database.
+* **Account Hub:** A centralized dashboard for users to manage their presence on the platform.
+![My Account](my-account.png)
+
+* **Data Persistence:** Interface for updating personal information, synchronized with the backend database.
+![Edit Profile](edit-profile.png)
 
 ---
 
 ### 🛍️ 4. The E-Commerce Workflow
 The "Heart" of the application—from product discovery to financial transaction.
 
-* **Cataloging (`products.png`, `categories.png`):** Dynamic product grid with category-based filtering.
-* **In-Depth View (`product-details.png`):** Detailed breakdown of product specs, pricing, and high-res imagery.
-* **Inventory Management (`cart.png`):** Real-time cart state that allows users to adjust quantities before purchase.
-* **Transaction Flow (`checkout.png`, `payment-options.png`):** A secure, multi-step checkout process with integrated payment method selection.
+* **Cataloging & Filtering:** Dynamic product grid with category-based filtering.
+![Products](products.png)
+![Categories](categories.png)
+
+* **In-Depth View:** Detailed breakdown of product specs, pricing, and high-res imagery.
+![Product Details](product-details.png)
+
+* **Inventory Management:** Real-time cart state that allows users to adjust quantities before purchase.
+![Cart](cart.png)
+
+* **Transaction Flow:** A secure, multi-step checkout process with integrated payment method selection.
+![Checkout](checkout.png)
+![Payment Options](payment-options.png)
 
 ---
 
 ### 🧾 5. Order Management & Transparency
 Post-purchase features that build user trust and record-keeping.
 
-* **Historical Logs (`purchase-history.png`):** A dedicated section for users to track and review all previous transactions.
-* **Financial Records (`receipt.png`):** Digital invoice generation for proof of purchase and business accounting.
+* **Historical Logs:** A dedicated section for users to track and review all previous transactions.
+![Purchase History](purchase-history.png)
+
+* **Financial Records:** Digital invoice generation for proof of purchase and business accounting.
+![Receipt](receipt.png)
 
 ---
-*Note: All screenshots are located within the `/documentation` folder for reference.*
+*Note: This manual is maintained by the development team. For technical support, please refer to the main repository README.*
